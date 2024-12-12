@@ -1,0 +1,36 @@
+
+/* Sidebar Styling */
+VBox {
+    background-color: #f0f0f0;
+}
+
+Button {
+    -fx-background-color: #0073e6;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+Button:hover {
+    -fx-background-color: #005bb5;
+}
+
+/* Title Styling */
+Label {
+    -fx-font-family: Arial, sans-serif;
+}
+
+/* Grid Buttons Styling */
+GridPane Button {
+    -fx-background-color: #228B22;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+GridPane Button:hover {
+    -fx-background-color: #1e7c1e;
+}
